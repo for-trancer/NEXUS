@@ -13,7 +13,7 @@ Nexus is an online chatting platform developed using PHP, MySQL, and Python for 
 
 ### Chat Screen
 
-![Chat Screen](screenshots/default_theme.png)
+![Chat Screen](screenshots/default-theme.png)
 
 ### Login
 
