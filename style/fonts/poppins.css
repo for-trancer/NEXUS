@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+label[for="display-username"],
+label[for="display-name"],
+label[for="app-name"],
+label[for="chat"],
+label[for="message-username"],
+label[for="message-content"],
+label[for="msg-time"],
+label[for="receiver-name"],
+label[for="user-main-holder"],
+label[for="theme-title"],
+label[for="select-title"],
+label[for="startup-title"] {
+    font-family: 'Poppins', sans-serif;
+}
