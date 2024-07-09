@@ -466,7 +466,7 @@
             $result = $conn->query($query);
             if($result->num_rows>0)
             {
-                $r = exec("C:\\Users\\mrfor\\AppData\\Local\\Programs\\Python\\Python38\\python.exe facemodel.py C:\\Apache24\\htdocs\\uploads\\faceid\\test.png C:\\Apache24\\htdocs\\uploads\\faceid\\$user.png");
+                $r = exec("C:\\Users\\mrfor\\AppData\\Local\\Programs\\Python\\Python38\\python.exe facemodel.py C:\\Apache24\\htdocs\\uploads\\faceid\\test.png C:\\Apache24\\htdocs\\uploads\\faceid\\$user.png"); // add your python path
                 if($r == "false")   
                 {
                     echo "false";
