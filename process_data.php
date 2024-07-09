@@ -330,7 +330,7 @@
             }
             $time = $_POST['time'];
             $msg = $_POST['translateMsg'];
-            $api_key = 'AIzaSyA4l_1zlqtnD293u4pmJwPFxkM7WhFx6DQ';
+            $api_key = ''; # Obtain Your Google API From https://cloud.google.com/translate
             $target = 'en';
             $url = 'https://www.googleapis.com/language/translate/v2?key=' . $api_key . '&q=' . rawurlencode($msg) . '&target=' . $target;
             
